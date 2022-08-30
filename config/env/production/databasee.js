@@ -9,7 +9,7 @@ module.exports = ({ env }) => ({
       port: config.post,
       database: config.database,
       user: config.user,
-      password: config.passowrd,
+      password: config.password,
       ssl: {
         rejectunauthorized: false,
       },
